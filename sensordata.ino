@@ -22,7 +22,7 @@ soil moisture to A1
 Water level to A2
 */
 
-
+#include<dth.h>
 
 #define dht_apin A0
 dht DHT;
