@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+
+ <html class="no-js">
+	<head>
+	<title>Skyfarming</title>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+	<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/animate.css')}}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/icomoon.css')}}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.css')}}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/flexslider.css')}}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+
+
+	<!-- Modernizr JS -->
+	<script src="../static/js/modernizr-2.6.2.min.js"></script>
+
+
+	</head>
+	<body background="{{url_for('static',filename='images/pqr.jpg')}}">
+
+
+	<header>
+		<div class="overlay"></div>
+	  <div class="overlay"></div>
+	  <div class="overlay"></div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div class="fh5co-box animate-box">&nbsp;<center><h1 class="white-text"><font size="80" color="black">SKYFARMING</font></h1></center></div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+	  <div>&nbsp;</div>
+			<div class="overlay"></div>
+
+	   	</header>
+
+
+  	</div>
+	<div id="best-deal">
+		<div class="container">
+			<div class="row">
+
+
+	<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure><center>
+						<img src="{{url_for('static',filename='images/hot_temperature-512.png')}}" alt="Free Website Templates FreeHTML5.co" width="102" height="102" class="img-responsive img-circle"></center> </figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="#">Temperature</a></h3>
+							<div class="price-status">
+		                 	<span class="price">{{ t }}<span class="per">/unit</span> </span>
+		               </div>
+		               <p>Controls current temperature at a particular floor.</p>
+	            	</div>
+	            	</div>
+
+			  </div>			<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure><center>
+						<img src="{{url_for('static',filename='images/dew-icon.png')}}" alt="Free Website Templates FreeHTML5.co" width="102" height="102" class="img-responsive img-circle"></center> </figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="#">Water Level</a></h3>
+							<div class="price-status">
+		                 	<span class="price">{{ wl }} <span class="per">/unit</span> </span>
+		               </div>
+		               <p>Controls current water level to particular floor.</p>
+	            	</div>
+	            	</div>
+
+				</div>
+				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure><center>
+						<img src="{{url_for('static',filename='images/soil.png')}}" alt="Free Website Templates FreeHTML5.co" width="102" height="102" class="img-responsive img-circle"></center> </figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="#">Soil Moisture</a></h3>
+							<div class="price-status">
+		                 	<span class="price">{{ sm }} <span class="per">/unit</span> </span>
+		               </div>
+		               <p>Controls current soil moisture.</p>
+	            	</div>
+	            	</div>
+
+				</div>
+				<div class="col-md-4 item-block animate-box" data-animate-effect="fadeIn">
+
+					<div class="fh5co-property">
+						<figure><center>
+						<img src="{{url_for('static',filename='images/humidity-512.png')}}" alt="Free Website Templates FreeHTML5.co" width="102" height="102" class="img-responsive img-circle"></center> </figure>
+						<div class="fh5co-property-innter">
+							<h3><a href="#">Humidity</a></h3>
+							<div class="price-status">
+		                 	<span class="price">{{ h }} <span class="per">/unit</span> </span>
+		               </div>
+		               <p>Controls current humidity at particular floor.</p>
+	            	</div>
+	            	</div>
+
+				</div>
+
+		  </div>
+		</div>
+	</div>
+
+
+	<div class="fh5co-section-with-image">
+
+		<img src="{{url_for('static',filename='images/comfort.jpg')}}"alt="" class="img-responsive">
+		<div class="fh5co-box animate-box">
+			<h2>Comfort, &amp; Convenience</h2>
+			<p>Provides comfort and covenience by controlling the atmosphere .</p>
+
+		</div>
+
+	</div>
+<footer id="fh5co-footer" role="contentinfo"> </footer>
+	</div>
+
+
+	<!-- jQuery -->
+	<script src="../static/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="../static/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="../static/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="../static/js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="../static/js/jquery.flexslider-min.js"></script>
+
+	<!-- MAIN JS -->
+	<script src="../static/js/main.js"></script>
+
+	</body>
+</html>
